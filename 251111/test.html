@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css를 쓰기 위한 태그 -->
+
+    <style>
+        p{
+            color : red;
+        }
+
+
+        /* ul 태그의 직계 자식인 li 태그 중에서 3번째에 해당하는 요소에 적용*/
+        ul > li:nth-child(1){
+            color : red ; 
+        }
+
+        /* class 속성이 'container' 인 요소에 대해 적용 */
+        .container {
+            border : 2px solid blue;
+            padding : 10px;
+            margin: 10px ; 
+            
+        }
+
+    </style>
+</head>
+<body>
+    <!-- ! + enter : html 뼈대 자동생성 -->
+    <!-- 폴더 속 파일 중 아이콘이 엣지 또는 크롬인 파일을 클릭하면 해당 html 페이지 이동 -->
+    
+    <!--제목 태그-->
+    <h1>가장 큰 제목</h1>
+    <h2>두 번째 큰 제목</h2>
+    <h6>여섯 번째 큰 제목</h6>
+
+    <!--문단 태그-->
+    <p>이것은 문단입니다.</p>
+    <p>이것은 또 다른 문단입니다.</p>
+
+    <!--링크 태그-->
+    <a href="https://www.naver.com">네이버로 이동</a>
+
+    <!-- 이미지 링크-->
+     <img src = "C:\sesac_workspace\data_\251111\아냐짱.jpg">
+
+
+
+    <!--이미지 링크-->
+    <img src="https://vrthumb.clipartkorea.co.kr/2023/10/12/tc00240107234.jpg">
+
+    <!--순서가 없는 리스트-->
+    <ul>
+        <!--리스트에 들어갈 항목들 넣자!-->
+        <li>사과</li>
+        <li>바나나</li>
+        <li>오렌지</li>
+    </ul>
+
+    <!--순서가 있는 리스트-->
+    <ol>
+        <li>첫 번째 항목</li>
+        <li>두 번째 항목</li>
+        <li>세 번째 항목</li>
+    </ol>
+    
+    <ul>
+        <li>바깥쪽1</li>
+        <ul>
+            <li>하나</li>
+            <li>둘</li>
+        </ul>
+        <li>바깥쪽2</li>
+        <ul>
+            <li>셋</li>
+            <li>넷</li>
+        </ul>
+    </ul>
+
+    <!--테이블 태그-->
+    <table border="1">
+        <tr> <!--tr = table row-->
+            <td>이름</td> <!--td = table data-->
+            <td>나이</td>
+        </tr>
+        <tr>
+            <td>홍길동</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>김철수</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+        <!--  id : 하나만 가질수 있는 고유한 속성 -->
+
+        <!-- ** ppt내 (5) 등호 반대-->
+</body>
+</html>
